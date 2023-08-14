@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<style>
+		/* Styling the body element
+		like body color and margin */
+
+		body {
+			background-color:rgb(180, 116, 116);
+			margin: 20%;
+		}
+
+		/* Styling the Title and giving
+		shadow to the title */
+		#title {
+			text-align: center;
+			text-shadow: 5px 5px 10px white;
+			font-size: 7vh;
+		}
+
+		/* Setting width and display
+		type of image */
+		img {
+			display: inline-block;
+			width: 50%;
+			height:50%;
+			align-content: center;
+			padding: 50px 50px;
+
+			margin-left: 150px;
+		}
+
+		/* Setting font color and font
+		size of the image-caption */
+		#caption {
+			font-size: 17px;
+			font-family: Gill Sans;
+			color: black;
+		}
+
+		/* Styling the content of the page like-
+		padding, font-size, font color etc.*/
+		div#tribute-data {
+			background-color: rgba(119, 123, 141, 0.25);
+			box-shadow: 20px 20px 20px #656069;
+			font-family: Georgia;
+			padding: 25px 25px;
+			margin: 11px;
+			margin-top: 50px;
+		}
+
+		/* Styling the title of the content */
+		h1.title-APJ {
+			font-size: 35px;
+			color: white;
+			text-align: center;
+			text-shadow: 5px 5px 10px black;
+		}
+
+		/* Styling the link provided at the end */
+		#tribute-link {
+			text-decoration: none;
+			color: black;
+		}
+	</style>
+</head>
+
+<body>
+	<main id="main">
+
+		<!-- Title of the page -->
+		<h1 id="title">
+			KAMARAJAR
+		</h1>
+
+		<div id="img">
+
+			<!--Image of the Tribute Person-->
+			<img src="data:image/jpeg;base64,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"
+				id="image" 
+                alt="Error Loading Image"><br/>
+			<small id="caption">
+				<b>A school dropout who made school education accessible to millions of poor children
+                K. Kamaraj, Indian politician</b>
+				
+			</small>
+		</div>
+
+		<div id="tribute-data">
+
+			<!--Achievements and other
+				details of the person-->
+			<h1 class="title-APJ">
+				About the Legend
+			</h1>
+			<p>
+				☛ K. Kamaraj (1903 – 1975) is an Indian politician well-known for his simplicity and integrity. He is remembered by millions of people in Tamil Nadu, India for his pioneering achievements in the fields of Education, Agriculture and Industry.<br><br>
+				☛ At the age of 10, he dropped out of school and started working to support his family. Decades later, he became the Chief Minister of Tamil Nadu and served three consecutive terms.
+                .<br><br>
+				☛ He served 9 years in prison for his participation is various Indian Independence Movements.
+
+				<br><br> ☛ He joined the Congress as a grassroot worker and would later go on to become the President of the Indian National Congress.
+            </strong>
+				<br><br> ☛ When he became the Chief Minister of Tamil Nadu, he inducted his two contestants as members of his cabinet.
+
+				<br><br> ☛ The first action he performed as Chief Minister was to abolish Hereditary Education policy and bring in the policy of free and compulsory education up to the eleventh standard.
+
+				<br><br> ☛ He reopened 6000 schools closed by the previous Government and added 12000 more schools across Tamil Nadu, bringing the total number of schools to 27000. During his tenure, no village remained without a primary school and no panchayat without a high school. Poor rural students did not have to walk beyond three miles to reach their nearest school.
+                .
+				<br><br> ☛ He introduced the <b>Free Midday Meal Scheme</b> to provide at least one meal per day to school children. This benefitted 14 lakhs of poor school children. This scheme was later expanded across India and continues till this day.
+
+				<br><br> ☛ Thanks to his educational reforms, by the end of his tenure, Tamil Nadu’s literacy rate rose to 37% from the 7% during British rule. He was hailed as <b>Kalvi Thanthai (Father of Education)</b> and as <b> Kalvikkan thirantha Kamarajar </b>(The man who opened our eyes to education).
+				<br><br> ☛ He constructed nine dams across major and minor rivers in Tamil Nadu and built thousands of irrigation canals. Thousands of tanks were de-silted and wells were dug during his regime. Through these actions, 150 lakhs of acres of lands came under cultivation. One third of this i.e. 56 lakhs of acres of land got permanent irrigation facilities.
+				<br><br> ☛ He started several electricity generation schemes - <b>hydro, hydel and thermal power stations</b> and established industries such as Sugar, Paper, Chemicals, Cement, Oil Refineries, Railway Coach manufacturing. Notable among them are <b>Neyveli Lignite Corporation (NLC) at Neyveli, Bharat Heavy Electric Limited (BHEL) at Trichy, Hindustan Photo Film Factory (HPF) at Ooty, Chennai Petroleum Corporation Limited (CPCL) at Chennai, South India Surgical Company Limited (SISCO) at Chennai, Integral Coach Factory (ICF) at Chennai</b>. At the end of his Chief Ministerial tenure, Tamil Nadu became the second most prosperous state in India in Industry and Trade.
+				<br><br> ☛ He was fondly referred to as <b>Perunthalaivar</b> (Great Leader) for his visionary, selfless, pragmatic and successful leadership of the state during his 9 years of rule.
+
+				<br><br> ☛Kamaraj died at his home, on Gandhi Jayanti day (2 October 1975), which also was the 12th anniversary of his resignation. He was aged 72 and died in his sleep due to a heart attack.
+				<br><br> ☛ He had the opportunity to become Prime Minister of India twice which he declined and brought to power two Indian Prime Ministers, Lal Bahadur Shastri and Indira Gandhi and was acclaimed as the <b>King Maker</b>.
+
+				<br><br> ☛ He was awarded India's highest civilian honour, the <b>Bharat Ratna</b>, posthumously..
+				<br><br> ☛ A Tamil film titled ‘Kamaraj’ was made in commemoration of his life and achievements.
+				<br><br><br>
+			</p>
+
+		</div>
+		<br>
+		For more information,
+		check out
+		<a id="tribute-link" href="#">
+			<b>Kamaraj</b> on Wikipedia. [
+			<small>Developed by @<a href="#">
+					JeyaRuby.</a></a>
+		</small>]
+	</main>
+</body>
+</html>
